@@ -43,10 +43,10 @@ public class Tails<T> {
     }
     public T peekTails() throws Exception {
         if (!isEmpty()) { //Evaluar si es diferente de vacio
-            System.out.println("|\t" + top.getValor() + "\t|");
+            System.out.println( top.getValor() );
           return (T) top.getValor(); //Retornar el valor que esta en el inicio
         } else {
-            throw new Exception("La pila se encuentra vacia");
+            throw new Exception("La cola se encuentra vacia");
         }
     }
     

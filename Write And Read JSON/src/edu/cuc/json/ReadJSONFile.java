@@ -21,7 +21,7 @@ import org.json.simple.parser.ParseException;
 public class ReadJSONFile {
     public static void main(String[] args) {
          
-        JSONParser parser = new JSONParser();
+        JSONParser parser = new  JSONParser();
         
         try {
              

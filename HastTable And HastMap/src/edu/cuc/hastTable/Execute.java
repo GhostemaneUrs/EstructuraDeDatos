@@ -8,7 +8,7 @@ package edu.cuc.hastTable;
 
 /**
  *
- * @author ajaramil
+ * @author Ghostemane
  */
 public class Execute {
     public static void main(String[] args) {

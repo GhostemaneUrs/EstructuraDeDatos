@@ -20,10 +20,11 @@ public class ExecuteTails {
         tails.enqueue("E25");
         tails.enqueue("A30");
         tails.enqueue("A35");
+        tails.dequeue();
         
         tails.display();
-        NodeTails<String> nodo = tails.dequeue();
-        System.out.println("Se atendio el nodo " + nodo.getValor());
+//        NodeTails<String> nodo = tails.dequeue();
+//        System.out.println("Se atendio el nodo " + nodo.getValor());
     }
 } 
 
